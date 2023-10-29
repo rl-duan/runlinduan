@@ -202,7 +202,7 @@ sections:
   #     view: card
 
   - block: collection
-    # id: recent
+    id: recent
     content:
       title: Recent Publications
       text: |-
