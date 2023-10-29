@@ -23,6 +23,8 @@ role: Ph.D. Student
 organizations:
   - name: Purdue University
     url: https://www.purdue.edu/
+  - name: Convergence Design Lab
+    url: https://engineering.purdue.edu/cdesign/wp/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -120,7 +122,7 @@ social:
 highlight_name: true
 ---
 
-Runlin Duan is a Ph.D. student of mechanical engineering at the Purdue University Convergence Design Lab. His research interests include human computer interactions, design, virtual and augmented reality. He leads projects on develops human-AI collaboration systems for early stage concept generation, large-scale design space exploration and parametric modeling for CAD
+Runlin Duan is a Ph.D. student of mechanical engineering at the Purdue University Convergence Design Lab, supervised by Prof. Karthik Ramani. His research interests include human computer interactions, design, virtual and augmented reality. He leads projects on develops human-AI collaboration systems for early stage concept generation, large-scale design space exploration and parametric modeling for CAD.
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
 {style="text-align: justify;"}
