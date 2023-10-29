@@ -237,14 +237,14 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
-      subtitle:
+      # title: Contact
+      # subtitle:
       # text: |-
       #   Please leave me a message i
       # Contact (add or remove contact options as necessary)
       email: duan92@purdue.edu
       phone: 7657756926
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       address:
         street: 585 Purdue Mall
         city: West Lafayette
@@ -253,6 +253,7 @@ sections:
         country: United States
         country_code: US
       directions: ME 3164
+
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
@@ -270,8 +271,9 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+      # autolink: true
       # Email form provider
+
       form:
         provider: netlify
         formspree:
