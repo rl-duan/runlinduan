@@ -237,7 +237,7 @@ sections:
   - block: contact
     id: contact
     content:
-      # title: Contact
+      title: Contact
       # subtitle:
       # text: |-
       #   Please leave me a message i
@@ -274,13 +274,13 @@ sections:
       # autolink: true
       # Email form provider
 
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
