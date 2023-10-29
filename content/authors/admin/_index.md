@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 段润霖
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Runlin Duan
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Runlin
+last_name: Duan
 
 # Status emoji
 status:
@@ -17,34 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Purdue University
+    url: https://www.purdue.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Human Computer Interaction
+  - Design
+  - AR/VR
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Mechanicial Engineering
+      institution: Purdue University
+      year: 2020 - Now
+    - course: Master in Mechanical Engineering
+      institution: Carnegie Mellon University
+      year: 2017-2019
+    - course: BSc in Aircraft Design and Engineering, 
+      institution: Xi'an Jiaotong University
+      year: 2013-2017
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
