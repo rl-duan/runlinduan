@@ -39,10 +39,10 @@ education:
     - course: PhD in Mechanicial Engineering
       institution: Purdue University
       year: 2020 - Now
-    - course: Master in Mechanical Engineering
+    - course: MS in Mechanical Engineering
       institution: Carnegie Mellon University
       year: 2017-2019
-    - course: BSc in Aircraft Design and Engineering, 
+    - course: BS in Aircraft Design and Engineering
       institution: Xi'an Jiaotong University
       year: 2013-2017
 
@@ -120,9 +120,7 @@ social:
 highlight_name: true
 ---
 
-Runlin Duan is a Ph.D. student of mechanical engineering at the Purdue University Convergence Design Lab. His research interests include human computer interactions, design, virtual and augmented reality. He leads projects on develops human-AI collaboration systems for early stage concept generation, large-scale design space exploration and parametric modeling.
-
-
+Runlin Duan is a Ph.D. student of mechanical engineering at the Purdue University Convergence Design Lab. His research interests include human computer interactions, design, virtual and augmented reality. He leads projects on develops human-AI collaboration systems for early stage concept generation, large-scale design space exploration and parametric modeling for CAD
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
 {style="text-align: justify;"}
