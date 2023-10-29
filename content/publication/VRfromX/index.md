@@ -30,7 +30,7 @@ publication_types: ['article-journal']
 publication: In *The ASME Journal of Computing and Information Science in Engineering (JCISE) *
 publication_short: In *JCIST*
 
-abstract: Domain users (DUs) with a knowledge base in specialized fields are frequently excluded
+abstract: "Domain users (DUs) with a knowledge base in specialized fields are frequently excluded
 from authoring virtual reality (VR)-based applications in corresponding fields. This is
 largely due to the requirement of VR programming expertise needed to author these applications. To address this concern, we developed VRFromX, a system workflow design to
 make the virtual content creation process accessible to DUs irrespective of their programming skills and experience. VRFromX provides an in situ process of content creation in VR
@@ -40,7 +40,7 @@ those objects. Using a welding use case, we performed a usability evaluation of
 VRFromX with 20 DUs from which 12 were novices in VR programming. Study results indicated positive user ratings for the system features with no significant differences across
 users with or without VR programming expertise. Based on the qualitative feedback, we
 also implemented two other use cases to demonstrate potential applications. We envision
-that the solution can facilitate the adoption of the immersive technology to create meaningful virtual environments.
+that the solution can facilitate the adoption of the immersive technology to create meaningful virtual environments."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
