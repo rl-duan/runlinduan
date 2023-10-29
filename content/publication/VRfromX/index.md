@@ -15,7 +15,7 @@ author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2023-07-01T00:00:00Z'
+date: '2023-06-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,7 +28,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *The ASME Journal of Computing and Information Science in Engineering (JCISE) *
-publication_short: In *JCIST*
+publication_short: In *JCIST 2024(3)*
 
 abstract: "Domain users (DUs) with a knowledge base in specialized fields are frequently excluded
 from authoring virtual reality (VR)-based applications in corresponding fields. This is

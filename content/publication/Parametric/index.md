@@ -16,8 +16,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-# date: ''
-doi: 'Under Review'
+date: '2023-07-02T00:00:00Z'
+# doi: 'Under Review'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 'Submitted'
@@ -29,7 +29,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *The ACM CHI Conference on Human Factors in Computing Systems 2024*
-publication_short: In *CHI*
+publication_short: Under Review *CHI 2024*
 
 abstract: Parametric modeling is a powerful design tool for controlling precision, accessing high-quality design libraries, and iterating on designs. However, its steep learning curve, complex user interfaces, and lack of spatial understanding can hinder novice users from creating reusable and precise solid models. To overcome the barriers, we introduce pARametric, an augmented reality (AR) system that provides an effortless in-situ parametric modeling experience. This system includes an immersive sketching platform for freehand sketching, transformer-based parametric sketch construction, and an AR interface that offers intuitive hand-virtual geometry interaction for 3D modeling operations. In a user study of 8 participants, we found that novice designers saw great potential in pARametric to enhance their capabilities and willingness to use parametric modeling for design. We further discuss how pARametric can be integrated into the traditional parametric modeling workflow to benefit broader designers.
 
