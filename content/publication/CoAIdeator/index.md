@@ -10,13 +10,17 @@ authors:
   - Nachiketh Karthik
   - Jingyu Shi
   - Rahul Jain
+  - Ziyi Liu
+  - Zhengzhe Zhu
+  - Maria Yang
+  - Karthik Ramani
 
 # Author notes (optional)
 author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2023-07-01T00:00:00Z'
+date: '2023-09-13T00:00:00Z'
 # doi: ''
 
 # Schedule page publish date (NOT publication's date).

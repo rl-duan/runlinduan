@@ -1,51 +1,36 @@
 ---
-title: 'The Design of a Virtual Prototyping System for Authoring Interactive Virtual Reality Environments From Real-World Scans'
+title: 'Understanding Generative AI in Art: An Interview Study with Artists on G-AI from an HCI Perspective'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Ananya Ipsita
+  - Jingyu Shi
+  - Rahul Jain
   - Runlin Duan
-  - Hao Li
-  - Subramanian Chidambaram
-  - Yuanzhi Cao
-  - Min Liu
-  - Alex Quinn
   - Karthik Ramani
-
 
 # Author notes (optional)
 author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2023-06-01T00:00:00Z'
-doi: ''
+date: '2023-09-17T00:00:00Z'
+# doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-10-16T00:00:00Z'
+# publishDate: 'Under Review'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journal']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The ASME Journal of Computing and Information Science in Engineering (JCISE) *
-publication_short: In *JCIST 2024(3)*
+publication: In *The ACM CHI Conference on Human Factors in Computing Systems 2024*
+publication_short: Under Review *CHI 2024*
 
-abstract: "Domain users (DUs) with a knowledge base in specialized fields are frequently excluded
-from authoring virtual reality (VR)-based applications in corresponding fields. This is
-largely due to the requirement of VR programming expertise needed to author these applications. To address this concern, we developed VRFromX, a system workflow design to
-make the virtual content creation process accessible to DUs irrespective of their programming skills and experience. VRFromX provides an in situ process of content creation in VR
-that (a) allows users to select regions of interest in scanned point clouds or sketch in mid-air
-using a brush tool to retrieve virtual models and (b) then attach behavioral properties to
-those objects. Using a welding use case, we performed a usability evaluation of
-VRFromX with 20 DUs from which 12 were novices in VR programming. Study results indicated positive user ratings for the system features with no significant differences across
-users with or without VR programming expertise. Based on the qualitative feedback, we
-also implemented two other use cases to demonstrate potential applications. We envision
-that the solution can facilitate the adoption of the immersive technology to create meaningful virtual environments."
+abstract: "The emergence of Generative Artificial Intelligence (G-AI) has changed the landscape of creative arts with its power to compose novel artwork and thus brought ethical concerns. Despite the efforts by prior works to address these concerns from technical and societal perspectives, there exists little discussion on this topic from an HCI point of view, considering the artists as human factors. We sought to investigate the impact of G-AI on artists, understanding the relationship between artists and G-AI, in order to motivate the underlying HCI research. We conducted semi-structured interviews with artists ($N=25$) from diverse artistic disciplines involved with G-AI in their artistic creation. We found (1) a dilemma among the artists, (2) a disparity in the understanding of G-AI between the artists and the AI developers(3) a tendency to oppose G-AI among the artists. We discuss the future opportunities of HCI research to tackle the problems identified from the interviews."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
