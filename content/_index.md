@@ -243,7 +243,7 @@ sections:
       #   Please leave me a message i
       # Contact (add or remove contact options as necessary)
       email: duan92@purdue.edu
-      phone: 7657756926
+      # phone: 7657756926
       # appointment_url: 'https://calendly.com'
       address:
         street: 585 Purdue Mall
