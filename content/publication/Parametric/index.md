@@ -1,5 +1,6 @@
 ---
-title: 'An example conference paper'
+title: 'pARametric: Empowering In-Situ Parametric Modeling in Augment Reality for
+Personal Fabrication.'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -15,8 +16,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2023-07-01T00:00:00Z'
-doi: ''
+# date: ''
+doi: 'Under Review'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 'Submitted'
@@ -66,15 +67,15 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}
