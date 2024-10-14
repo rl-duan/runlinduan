@@ -11,8 +11,6 @@ authors:
   - Min Liu
   - Jingyu Shi
   - Rahul Jain
-  - Ziyi Liu
-  - Zhengzhe Zhu
   - Karthik Ramani
 
 # Author notes (optional)
@@ -20,7 +18,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2023-09-12T00:00:00Z'
+date: '2024-08-27T00:00:00Z'
 # doi: 'Under Review'
 
 # Schedule page publish date (NOT publication's date).
@@ -32,10 +30,36 @@ publishDate: 'Submitted'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The ACM CHI Conference on Human Factors in Computing Systems 2024*
-publication_short: Under Review *CHI 2024*
+publication: In *ASME 2024 International Design Engineering Technical Conferences \& Computers and Information in Engineering Conference. *
+publication_short: Accepted *IDETC 2024*
 
-abstract: Parametric modeling is a powerful design tool for controlling precision, accessing high-quality design libraries, and iterating on designs. However, its steep learning curve, complex user interfaces, and lack of spatial understanding can hinder novice users from creating reusable and precise solid models. To overcome the barriers, we introduce pARametric, an augmented reality (AR) system that provides an effortless in-situ parametric modeling experience. This system includes an immersive sketching platform for freehand sketching, transformer-based parametric sketch construction, and an AR interface that offers intuitive hand-virtual geometry interaction for 3D modeling operations. In a user study of 8 participants, we found that novice designers saw great potential in pARametric to enhance their capabilities and willingness to use parametric modeling for design. We further discuss how pARametric can be integrated into the traditional parametric modeling workflow to benefit broader designers.
+abstract: "Parametric modeling software is a powerful design tool for
+controlling dimensions, accessing high-quality model libraries,
+and iterating on design concepts. However, its steep learning
+curve, complex user interfaces, and lack of support for spatial
+understanding can hinder novice users from creating reusable
+and precise solid models. To overcome these barriers, we intro-
+duce pARametric , an augmented reality (AR) system that provides
+an effortless parametric modeling experience in situ. This system
+features an immersive sketching platform for freehand sketching,
+a transformer-based parametric sketch construction algorithm,
+and an AR interface that offers intuitive hand-to-virtual geom-
+etry interaction for 3D modeling operations. In pARametric, a
+novice designer without experience in 3D modeling can create
+parametric models for personal fabrication. Our system uses en-
+vironmental information as design references to make decisions
+about structure, dimension, and shape. The system allows users
+to express their design intents by sketching in freehand rather
+than mastering the sophisticated operations of existing modeling
+software. We also incorporate widely used 3D modeling fea-
+tures such as extrusion, revolution, sweep, and mirror to create
+a wide variety of models. In a user study with 8 participants,
+we discovered that novice designers see great potential in pARa-
+metric to enhance their capabilities and willingness to engage
+in parametric modeling for design. We further discuss how our
+system can be integrated into traditional parametric modeling
+workflows to benefit a wider range of designers for visualization
+and collaboration on sophisticated design tasks."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
