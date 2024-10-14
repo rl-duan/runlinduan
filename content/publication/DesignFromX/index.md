@@ -1,13 +1,16 @@
 ---
-title: 'Understanding Generative AI in Art: An Interview Study with Artists on G-AI from an HCI Perspective'
+title: 'DesignFromX: Empowering End-User Product Design using Reference Design Fea-
+tures Drawn from Everyday Products'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyu Shi
-  - Rahul Jain
   - Runlin Duan
+  - Chenfei Zhu
+  - Yuzhao Chen
+  - Yichen Hu
+  - Jingyu Shi
   - Karthik Ramani
 
 # Author notes (optional)
@@ -15,7 +18,7 @@ author_notes:
   # - 'Equal contribution'
   # - 'Equal contribution'
 
-date: '2023-09-11T00:00:00Z'
+date: '2024-09-12T00:00:00Z'
 # doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,10 +30,15 @@ date: '2023-09-11T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Arxiv Preprint*
-publication_short: Arxiv Preprint
+publication: In *2025 CHI Conference on Human Factors in Computing Systems *
+publication_short: Under review
 
-abstract: "The emergence of Generative Artificial Intelligence (G-AI) has changed the landscape of creative arts with its power to compose novel artwork and thus brought ethical concerns. Despite the efforts by prior works to address these concerns from technical and societal perspectives, there exists little discussion on this topic from an HCI point of view, considering the artists as human factors. We sought to investigate the impact of G-AI on artists, understanding the relationship between artists and G-AI, in order to motivate the underlying HCI research. We conducted semi-structured interviews with artists (N=25) from diverse artistic disciplines involved with G-AI in their artistic creation. We found (1) a dilemma among the artists, (2) a disparity in the understanding of G-AI between the artists and the AI developers(3) a tendency to oppose G-AI among the artists. We discuss the future opportunities of HCI research to tackle the problems identified from the interviews."
+abstract: "End-user participation in product design enhances the user experience by accommodating personalized design features.
+However, many end-users lack the design expertise and thus struggle to identify useful features and then compose them into a cohesive design. 
+We present DesignFromX, a Generative AI(GenAI)-powered design support tool that identifies useful features drawn from other products for novice designers to support the exploration of their own design.
+A user study with 24 novice designers shows that DesignFromX enhances both engagement and enjoyment of their design process.
+Quantitative results further indicated that DesignFromX helps designers identify more reference features and promotes design composition to generate more designs. 
+Based on our comprehensive user studies, we also identify challenges in the current GenAI-supported design process and propose insights to foster seamless and controllable human-AI collaboration."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
