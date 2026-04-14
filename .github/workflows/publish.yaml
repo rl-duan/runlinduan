@@ -32,24 +32,38 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
+      # Avoid cache warning when no go.sum (Hugo pulls modules without a committed go.sum)
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
           go-version: '1.21'
+          cache: false
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.119.0'
           extended: true
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+      # Do not use actions/configure-pages here: it calls the Pages API and fails (404) until
+      # the repo has Pages enabled — which blocks first-time builds. Compute baseURL locally instead.
+      - name: Compute site base URL
+        run: |
+          OWNER='${{ github.repository_owner }}'
+          REPO='${{ github.event.repository.name }}'
+          OWNER_LC=$(echo "$OWNER" | tr '[:upper:]' '[:lower:]')
+          REPO_LC=$(echo "$REPO" | tr '[:upper:]' '[:lower:]')
+          if [ "$REPO_LC" = "${OWNER_LC}.github.io" ]; then
+            BASE="https://${OWNER_LC}.github.io/"
+          else
+            BASE="https://${OWNER_LC}.github.io/${REPO_LC}/"
+          fi
+          echo "HUGO_BASEURL=$BASE" >> "$GITHUB_ENV"
+          echo "Building for: $BASE"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify --baseURL "${HUGO_BASEURL}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
