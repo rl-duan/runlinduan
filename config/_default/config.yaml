@@ -32,6 +32,9 @@ module:
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
+# Show publications dated in the future (e.g., accepted / forthcoming venues).
+build:
+  future: true
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
