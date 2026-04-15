@@ -25,9 +25,12 @@ abstract: "This work presents an AI tutoring system based on handwriting interac
 
 featured: false
 
+url_pdf: 'https://dl.acm.org/doi/epdf/10.1145/3772318.3790935'
+
 links:
-  - name: CHI 2026 Program
-    url: 'https://programs.sigchi.org/chi/2026/program/content/222496'
+  - name: ACM Library
+    url: 'https://dl.acm.org/doi/epdf/10.1145/3772318.3790935'
+
 
 image:
   caption: ''

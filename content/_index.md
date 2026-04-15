@@ -201,6 +201,18 @@ sections:
   #     columns: '2'
   #     view: card
 
+  - block: markdown
+    id: news
+    content:
+      title: News
+      text: |-
+        - **Mar 23, 2026:** We had one paper accepted to **DIS 2026**.
+        - **Mar 8, 2026:** Our paper *JustShape* received a **CHI 2026 Honorable Mention** award! 🎉
+        - **Feb 21, 2026:** We had one paper accepted to **CVPR 2026**.
+        - **Jan 13, 2026:** We had two papers accepted to **CHI 2026**.
+    design:
+      columns: '2'
+
   - block: collection
     id: recent
     content:
