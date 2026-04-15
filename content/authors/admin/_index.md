@@ -114,11 +114,11 @@ social:
   - icon: file-pdf
     icon_pack: fas
     link: uploads/resume-en.pdf
-    label: Resume (English)
-  - icon: language
+    label: CV_EN
+  - icon: file-pdf
     icon_pack: fas
     link: uploads/resume-zh.pdf
-    label: 个人简历（中文）
+    label: CV_CN
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

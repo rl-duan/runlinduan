@@ -22,4 +22,55 @@ section#about {
   #profile .network-icon {
     justify-content: center;
   }
+
+  // Resume downloads: show readable text instead of generic PDF icons
+  #profile a[href*='resume-en'] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.55rem;
+    margin: 0 0.1rem;
+    border: 1px solid var(--bs-primary, #2962ff);
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none !important;
+    color: var(--bs-primary, #2962ff) !important;
+    white-space: nowrap;
+
+    i,
+    svg {
+      display: none !important;
+    }
+
+    &::after {
+      content: 'CV_EN';
+    }
+  }
+
+  #profile a[href*='resume-zh'] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.55rem;
+    margin: 0 0.1rem;
+    border: 1px solid var(--bs-primary, #2962ff);
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none !important;
+    color: var(--bs-primary, #2962ff) !important;
+    white-space: nowrap;
+
+    i,
+    svg {
+      display: none !important;
+    }
+
+    &::after {
+      content: 'CV_CN';
+    }
+  }
 }
