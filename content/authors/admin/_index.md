@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -40,7 +40,7 @@ education:
   courses:
     - course: PhD in Mechanicial Engineering
       institution: Purdue University
-      year: 2020 - Now
+      year: 2020 - 2026
     - course: MS in Mechanical Engineering
       institution: Carnegie Mellon University
       year: 2017-2019

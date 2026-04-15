@@ -1,4 +1,10 @@
 // About / biography: center circular avatar + name in the left column
+//
+// Social icons: color comes from the theme’s link styles (FA uses currentColor).
+// We do not override icon color in this repo — params.yaml has no custom icon hex.
+// CV pills: avoid raw --bs-primary (often reads brighter than small icon glyphs);
+// use color-mix, or set :root { --cv-pill-bg: #1e6bb8; } to match DevTools exactly.
+
 section#about {
   .row > [class*='col-lg-4']:first-child,
   .row > [class*='col-md-4']:first-child {
@@ -42,7 +48,7 @@ section#about {
     grid-row: 2;
   }
 
-  // Resume downloads: text labels, solid primary (match filled FA icons above)
+  // Resume downloads: align fill with sidebar icon blue (darker than bare --bs-primary)
   #profile a[href*='resume-en'],
   #profile a[href*='resume-zh'] {
     display: inline-flex;
@@ -57,14 +63,22 @@ section#about {
     letter-spacing: 0.02em;
     text-decoration: none !important;
     color: #fff !important;
-    background-color: var(--bs-primary, #2962ff);
+    // Optional override: :root { --cv-pill-bg: #1e6bb8; }
+    background-color: var(
+      --cv-pill-bg,
+      color-mix(
+        in srgb,
+        var(--bs-link-color, var(--bs-primary, #2962ff)) 78%,
+        #0f172a 22%
+      )
+    );
     white-space: nowrap;
     transition: filter 0.15s ease;
 
     &:hover,
     &:focus-visible {
       color: #fff !important;
-      filter: brightness(0.92);
+      filter: brightness(0.94);
     }
 
     i,
