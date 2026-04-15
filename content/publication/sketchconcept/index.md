@@ -19,7 +19,7 @@ publishDate: '2026-04-14T00:00:00Z'
 
 publication_types: ['paper-conference']
 publication: In *ACM Designing Interactive Systems (DIS) 2026*
-publication_short: DIS 2026 · Accepted (21%)
+publication_short: DIS 2026 · Accepted 
 
 abstract: "This paper investigates concept recomposition in product design through sketch-based interaction and generative AI. The system helps users restructure and recombine design concepts starting from rough sketches, supporting more flexible and iterative idea exploration. Rather than generating a complete design in one step, the work emphasizes decomposition, recombination, and localized refinement in early-stage design workflows."
 

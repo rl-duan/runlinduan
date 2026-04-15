@@ -18,59 +18,66 @@ section#about {
     margin-right: auto;
   }
 
-  // Social icon row stays centered under the name
-  #profile .network-icon {
+  // Social links: first row = 4 icons; second row = CV_EN / CV_CN (centered)
+  // :has() targets the icon list without relying on theme-specific class names
+  #profile ul:has(> li a[href*='resume-en']) {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
-  }
-
-  // Resume downloads: show readable text instead of generic PDF icons
-  #profile a[href*='resume-en'] {
-    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    padding: 0.2rem 0.55rem;
-    margin: 0 0.1rem;
-    border: 1px solid var(--bs-primary, #2962ff);
-    border-radius: 0.25rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    line-height: 1.2;
-    text-decoration: none !important;
-    color: var(--bs-primary, #2962ff) !important;
-    white-space: nowrap;
-
-    i,
-    svg {
-      display: none !important;
-    }
-
-    &::after {
-      content: 'CV_EN';
-    }
+    column-gap: 0.5rem;
+    row-gap: 0.45rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
   }
 
+  #profile ul:has(> li a[href*='resume-en']) > li:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #profile ul:has(> li a[href*='resume-en']) > li:nth-child(6) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  // Resume downloads: text labels, solid primary (match filled FA icons above)
+  #profile a[href*='resume-en'],
   #profile a[href*='resume-zh'] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.2rem 0.55rem;
-    margin: 0 0.1rem;
-    border: 1px solid var(--bs-primary, #2962ff);
-    border-radius: 0.25rem;
-    font-size: 0.75rem;
+    padding: 0.28rem 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 0.7rem;
     font-weight: 600;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-decoration: none !important;
-    color: var(--bs-primary, #2962ff) !important;
+    color: #fff !important;
+    background-color: var(--bs-primary, #2962ff);
     white-space: nowrap;
+    transition: filter 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: #fff !important;
+      filter: brightness(0.92);
+    }
 
     i,
     svg {
       display: none !important;
     }
+  }
 
-    &::after {
-      content: 'CV_CN';
-    }
+  #profile a[href*='resume-en']::after {
+    content: 'CV_EN';
+  }
+
+  #profile a[href*='resume-zh']::after {
+    content: 'CV_CN';
   }
 }
