@@ -111,12 +111,14 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/runlin-duan-3b95a4160/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: file-pdf
+    icon_pack: fas
+    link: uploads/resume-en.pdf
+    label: Resume (English)
+  - icon: language
+    icon_pack: fas
+    link: uploads/resume-zh.pdf
+    label: 个人简历（中文）
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
