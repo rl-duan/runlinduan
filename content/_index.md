@@ -206,10 +206,10 @@ sections:
     content:
       title: News
       text: |-
-        - **Mar 23, 2026:** We had one paper accepted to **DIS 2026**.
-        - **Mar 8, 2026:** Our paper *JustShape* received a **CHI 2026 Honorable Mention** award! 🎉
-        - **Feb 21, 2026:** We had one paper accepted to **CVPR 2026**.
-        - **Jan 13, 2026:** We had two papers accepted to **CHI 2026**.
+        - **Mar 23, 2026:** We had [*SketchConcept*](publication/sketchconcept/) accepted to **DIS 2026**.
+        - **Mar 8, 2026:** Our paper [*JustShape*](publication/justshape/) received a **CHI 2026 Honorable Mention** <span style="white-space: nowrap">award! 🎉</span>
+        - **Feb 21, 2026:** We had [*Dynamic-eDiTor*](publication/dynamic-editor/) accepted to **CVPR 2026**.
+        - **Jan 13, 2026:** We had two papers accepted to **CHI 2026**: [*AmIWrite*](publication/amiwrite/) and [*JustShape*](publication/justshape/).
     design:
       columns: '2'
 
